@@ -1,5 +1,6 @@
 import { ContactSectionStyles } from '../styles/ContactSectionStyles';
-import { Button } from 'react-bootstrap'
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const ContactSection = () => (
   <>
@@ -12,12 +13,12 @@ const ContactSection = () => (
           best to get back to you!
         </p>
         <br/>
-        <Button 
-          href='/contactme' 
-          rel='noreferrer'
-          variant='outline-dark'>
-          Contact Me
-        </Button>
+        <Link to='/contactme'>
+          <Button 
+            variant='outline-dark'>
+            Contact Me
+          </Button>
+        </Link>
       </div>
     </ContactSectionStyles>
   </>
