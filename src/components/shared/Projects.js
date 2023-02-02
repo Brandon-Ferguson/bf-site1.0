@@ -3,6 +3,7 @@ import { ProjectImg } from "../styles/ProjectIntroStyles";
 import PortfolioWebsite from '../images/PortfolioWebsite.jpeg';
 import ElephantStore from '../images/ElephantStore.jpeg';
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Projects = () => ( 
   <> 
@@ -15,24 +16,24 @@ const Projects = () => (
     <Container>
       <Row>
         <Col className="d-flex align-items-center justify-content-center">
-          <a href="/projects" target='' rel="noreferrer">
+          <Link to='/projects'>
             <ProjectImg 
               src={ElephantStore}
               alt="logo" 
               effect="blur"
               width='80%'
             />
-          </a>
+          </Link>
         </Col>
         <Col className="d-flex align-items-center justify-content-center">
-          <a href="/projects" target='' rel="noreferrer">
+          <Link to='/'>
             <ProjectImg 
               src={PortfolioWebsite}
               alt="logo" 
               effect="blur"
               width='80%'
             />
-          </a>
+          </Link>
         </Col>
       </Row>
       <br/>
