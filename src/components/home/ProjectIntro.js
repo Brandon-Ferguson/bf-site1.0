@@ -3,6 +3,7 @@ import PortfolioWebsite from '../../components/images/PortfolioWebsite.jpeg'
 import { Row, Col } from 'react-bootstrap';
 import { AboutStyles, PortraitImg, AboutContainer, AboutLeft, AboutSec, AboutRight } from '../styles/ProjectIntroStyles';
 import { Button } from 'react-bootstrap'
+import { Link } from "react-router-dom";
 
 const ProjectIntro = () => (
   <>
@@ -27,12 +28,12 @@ const ProjectIntro = () => (
                 I'm always working on new projects to simplify user experience. Come take a look at
                 some of my featured projects!
               </p>
-              <Button 
-                href='/Projects' 
-                rel='noreferrer'
-                variant='outline-dark'>
-                Projects
-              </Button>
+              <Link>
+                <Button 
+                  variant='outline-dark'>
+                  Projects
+                </Button>
+              </Link>
             </AboutRight>
           </AboutSec>
         </Col>
