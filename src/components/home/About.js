@@ -22,11 +22,11 @@ const About = () => (
               <p>
                 Today, I still love providing creative user experiences that simplify life for my
                 friends, family, and clients. I've had the priviledge of working for a {''}
-                <a href="https://blueravensolar.com/" target="_blank" style={{color: 'black'}}>solar company</a>, a {''}
-                <a href="https://www.taxhawk.com/" target="_blank" style={{color: 'black'}}>tax software firm</a>, and a {''}
-                <a href="https://facadegames.com/" target="_blank" style={{color: 'black'}}>board game start-up</a> (as a board 
+                <a href="https://blueravensolar.com/" target="_blank" rel='noreferrer' style={{color: 'black'}}>solar company</a>, a {''}
+                <a href="https://www.taxhawk.com/" target="_blank" rel='noreferrer' style={{color: 'black'}}>tax software firm</a>, and a {''}
+                <a href="https://facadegames.com/" target="_blank" rel='noreferrer' style={{color: 'black'}}>board game start-up</a> (as a board 
                 game junkie, I highly recommend checking out their {''}
-                <a href="https://facadegames.com/collections/our-games" target="_blank" style={{color: 'black'}}>games</a>). 
+                <a href="https://facadegames.com/collections/our-games" target="_blank" rel='noreferrer' style={{color: 'black'}}>games</a>). 
                 I am currently focused on building 
                 quality freelance projects, while actively searching for a company to join and further 
                 our joint missions of providing creative, human-centered solutions for clients. 
