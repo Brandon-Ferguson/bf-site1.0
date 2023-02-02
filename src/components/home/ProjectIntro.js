@@ -28,7 +28,7 @@ const ProjectIntro = () => (
                 I'm always working on new projects to simplify user experience. Come take a look at
                 some of my featured projects!
               </p>
-              <Link>
+              <Link to='/projects'>
                 <Button 
                   variant='outline-dark'>
                   Projects
