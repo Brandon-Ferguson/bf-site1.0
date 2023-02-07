@@ -39,7 +39,7 @@ const ContactForm = () => {
   return(
     <Form onSubmit={handleSubmit}>
       <Flip top>
-        <HomeSubTitle>Contact Me</HomeSubTitle>
+        <HomeSubTitle>Submit a contact form</HomeSubTitle>
       </Flip>
       <Fade bottom>
         <ContactTextInput 
@@ -70,11 +70,11 @@ const ContactForm = () => {
         </ContactTextArea>
       </Fade>
       <Fade bottom>
-      <Button 
-        type='submit'
-        rel='noreferrer'
-        variant='outline-dark'>
-          Submit
+        <Button 
+          type='submit'
+          rel='noreferrer'
+          variant='outline-dark'>
+            Submit
         </Button>
       </Fade>
     </Form>

@@ -34,7 +34,7 @@ export const ContactTextInput = styled.input`
   }
 `
 
-export const ContactTextArea = styled.textarea`
+export const ContactTextArea = styled.input`
   padding: 30px;
   border: 0;
   width: 380px;

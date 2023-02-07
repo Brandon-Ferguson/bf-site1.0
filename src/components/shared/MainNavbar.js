@@ -35,21 +35,11 @@ const MainNavbar = () => (
                 Projects
               </Link>
             </Nav.Link>
-            <NavDropdown  title="Contact Me" id="basic-nav-dropdown">
-              <NavDropdown.Item>
-                <Link style={{ textDecoration: 'none', color: 'black' }} to='/contactme'>
-                  Contact Form
-                </Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <a href="mailto:brandon.ferguson.ut@gmail.com" target='_top'>Direct Email</a>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link style={{ textDecoration: 'none', color: 'black' }} to='/contactme'>
-                  Socials
-                </Link>
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link>
+              <Link style={{ textDecoration: 'none', color: 'black' }} to='/contactme'>
+                Contact
+              </Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </LinkStyle>

@@ -62,6 +62,12 @@ export const MainBtn = styled.button`
   margin: 0 auto 50px auto;
 `
 
+export const ContactSubTitle = styled.h2`
+  text-decoration: none;
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
+`
+
 export const ExtraPgContainer = styled.div`
   text-align: center;
   margin: 0 auto;
