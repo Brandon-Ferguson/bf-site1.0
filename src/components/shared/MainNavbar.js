@@ -42,13 +42,11 @@ const MainNavbar = () => (
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link style={{ textDecoration: 'none', color: 'black' }} to='/contactme'>
-                  Direct Email
-                </Link>
+                <a href="mailto:brandon.ferguson.ut@gmail.com">Direct Email</a>
               </NavDropdown.Item>
               <NavDropdown.Item>
                 <Link style={{ textDecoration: 'none', color: 'black' }} to='/contactme'>
-                  Social Accounts
+                  Socials
                 </Link>
               </NavDropdown.Item>
             </NavDropdown>
