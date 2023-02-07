@@ -35,3 +35,8 @@ export const ContactSectionStyles = styled.section`
     max-width: 480px;
   }
 `
+
+export const LinkStyles = styled.div`
+  textDecoration: 'none'
+  color: 'black'
+`

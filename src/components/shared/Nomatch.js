@@ -5,15 +5,17 @@ import { Button } from "react-bootstrap";
 
 const Nomatch = () => (
   <>
+    <br/>
+    <br/>
+    <br/>
     <ContactSectionStyles>
       <div className="center">
         <h1>404: Page not found</h1>
-        <Button 
-        href='/'
-        rel='noreferrer'
-        variant='outline-dark'>
-          Return Home
-        </Button>
+          <Link to='/'>
+            <Button variant='outline-dark'>
+              Return Home
+            </Button>
+          </Link>
       </div>
     </ContactSectionStyles>
     <Footer/>
