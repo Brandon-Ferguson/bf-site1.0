@@ -1,6 +1,6 @@
-import Portrait from '../../components/images/Portrait.png'
+import BrandonProfile from '../../components/images/BrandonProfile.jpeg'
 import { Row, Col } from 'react-bootstrap';
-import { AboutStyles, PortraitImg, AboutContainer, AboutLeft, AboutSec, AboutRight } from '../styles/AboutStyles';
+import { PortraitImg, AboutContainer, AboutLeft, AboutSec, AboutRight } from '../styles/AboutStyles';
 
 const About = () => (
   <>
@@ -45,7 +45,7 @@ const About = () => (
         <AboutSec>
           <AboutRight>
             <PortraitImg 
-              src={Portrait} 
+              src={BrandonProfile} 
               alt="Portrait of Brandon" 
               effect='blur'
             />

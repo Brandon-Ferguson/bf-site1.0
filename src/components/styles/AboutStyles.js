@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const PortraitImg = styled(LazyLoadImage)`
-  width: 55%;
+  width: 65%;
   vertical-align: bottom;
   border-style: none;
   padding-top: 100px;

@@ -14,6 +14,14 @@ const Home = () => (
       <br/>
       <br/>
       <About/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <Work/>
       <br/>
       <br/>
